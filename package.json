@@ -2,7 +2,7 @@
   "name": "partfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://premakanda.github.io/partfolio",
+  "homepage": "https://premakanda.github.io/Partfolio",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
