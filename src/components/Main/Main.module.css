@@ -1,0 +1,21 @@
+.main {
+    height: 100vh;
+    background-color: #FFDEE9;
+}
+
+.mainWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    min-height: 45px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.mainImg {
+width: 300px;
+height: 450px;
+}

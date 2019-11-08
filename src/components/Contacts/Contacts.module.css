@@ -1,0 +1,29 @@
+.contacts {
+    background-color: #FFE2E2;
+    height: 100vh;
+}
+
+.contactsWrapper {
+    max-width: 1170px;
+    padding: 0 15px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.contactsTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contactsBtn {
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

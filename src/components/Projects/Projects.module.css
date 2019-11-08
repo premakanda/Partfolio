@@ -1,0 +1,23 @@
+.projects {
+    height: 100vh;
+    background-color: #F1E2FF;
+}
+
+.projectsWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    border: 1px solid #000;
+}
+
+.projectsTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projectsCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

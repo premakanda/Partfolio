@@ -1,0 +1,21 @@
+.slogan {
+    background-color: #FFFEEC;
+    min-height: 300px;
+}
+
+.sloganWrapper {
+    max-width: 1170px;
+    padding: 0 15px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.sloganTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sloganBtn {
+    display: block;
+    margin: 0 auto;
+}

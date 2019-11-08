@@ -1,0 +1,16 @@
+.skillsItem {
+    width: 27%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.skillsImg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.skillsTitle {
+    font-weight: 700;
+}
