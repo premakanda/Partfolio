@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/partfolio/static/css/main.14844bb4.chunk.css",
-    "main.js": "/partfolio/static/js/main.330c9862.chunk.js",
-    "main.js.map": "/partfolio/static/js/main.330c9862.chunk.js.map",
-    "runtime-main.js": "/partfolio/static/js/runtime-main.79a87acf.js",
-    "runtime-main.js.map": "/partfolio/static/js/runtime-main.79a87acf.js.map",
-    "static/js/2.2602d0a6.chunk.js": "/partfolio/static/js/2.2602d0a6.chunk.js",
-    "static/js/2.2602d0a6.chunk.js.map": "/partfolio/static/js/2.2602d0a6.chunk.js.map",
-    "index.html": "/partfolio/index.html",
-    "precache-manifest.3bd6aba0f568fcd1e4c901f5ed440d7d.js": "/partfolio/precache-manifest.3bd6aba0f568fcd1e4c901f5ed440d7d.js",
-    "service-worker.js": "/partfolio/service-worker.js",
-    "static/css/main.14844bb4.chunk.css.map": "/partfolio/static/css/main.14844bb4.chunk.css.map"
+    "main.css": "/Partfolio/static/css/main.14844bb4.chunk.css",
+    "main.js": "/Partfolio/static/js/main.00f6b3cd.chunk.js",
+    "main.js.map": "/Partfolio/static/js/main.00f6b3cd.chunk.js.map",
+    "runtime-main.js": "/Partfolio/static/js/runtime-main.526740ec.js",
+    "runtime-main.js.map": "/Partfolio/static/js/runtime-main.526740ec.js.map",
+    "static/js/2.2602d0a6.chunk.js": "/Partfolio/static/js/2.2602d0a6.chunk.js",
+    "static/js/2.2602d0a6.chunk.js.map": "/Partfolio/static/js/2.2602d0a6.chunk.js.map",
+    "index.html": "/Partfolio/index.html",
+    "precache-manifest.2271e6824e2779f866feb06963b2a915.js": "/Partfolio/precache-manifest.2271e6824e2779f866feb06963b2a915.js",
+    "service-worker.js": "/Partfolio/service-worker.js",
+    "static/css/main.14844bb4.chunk.css.map": "/Partfolio/static/css/main.14844bb4.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.79a87acf.js",
+    "static/js/runtime-main.526740ec.js",
     "static/js/2.2602d0a6.chunk.js",
     "static/css/main.14844bb4.chunk.css",
-    "static/js/main.330c9862.chunk.js"
+    "static/js/main.00f6b3cd.chunk.js"
   ]
 }
