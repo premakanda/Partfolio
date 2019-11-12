@@ -4,13 +4,26 @@
     justify-content: center;
     background-color: #ccc;
 }
-
+.projectsFoto {
+    position: relative;
+}
 .projectsImg {
     width: 400px;
     height: 400px;
     margin-bottom: 30px;
 }
-
+.projectsBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 .projectsTitle {
     font-weight: 700;
+}
+
+@media (max-width: 660px) {
+    .projectsItem {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }

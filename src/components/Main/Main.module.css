@@ -3,11 +3,16 @@
     background-color: #FFDEE9;
 }
 
+.mainTitle {
+    width: 35%;
+}
+
+.mainTitle span {
+    display: block;
+    font-style: 30px;
+    line-height: 40px;
+}
 .mainWrapper {
-    margin: 0 auto;
-    max-width: 1170px;
-    min-height: 45px;
-    padding: 0 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -18,4 +23,27 @@
 .mainImg {
 width: 300px;
 height: 450px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 660px) {
+    .mainTitle {
+        width: 100%;
+    }
+
+    .mainImg {
+        width: 100%;
+        height: auto;
+    }
 }

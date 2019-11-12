@@ -5,7 +5,7 @@ import s from './Footer.module.css';
 const Footer = () => {
   return (
       <footer className={s.footer}>
-          <div className={s.footerWrapper}>
+          <div className={s.container}>
                 <h2 className={s.footerTitle}>Петр Янушкевич</h2>
                 <div className={s.footerList}>
                     <a className={s.footerIcon} href="#s"></a>

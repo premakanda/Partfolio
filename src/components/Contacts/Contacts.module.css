@@ -3,11 +3,16 @@
     height: 100vh;
 }
 
-.contactsWrapper {
-    max-width: 1170px;
-    padding: 0 15px;
-    border: 1px solid #000;
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
 
 .contactsTitle {
@@ -20,10 +25,26 @@
     margin: 0 auto;
 }
 
+input {
+    margin-bottom: 20px;
+    background-color: #666666;
+}
+
+textarea {
+    margin-bottom: 20px;
+    background-color: #666666;
+}
+
 form {
     margin: 0 auto;
-    width: 300px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 660px) {
+    form {
+        width: 100%;
+    }
 }

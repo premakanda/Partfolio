@@ -5,7 +5,7 @@ import s from './Contacts.module.css';
 const Contacts = () => {
   return (
       <div className={s.contacts}>
-          <div className={s.contactsWrapper}>
+          <div className={s.container}>
               <form action="#">
                 <h2 className={s.contactsTitle}>Контакты</h2>
                 <input type="text"/>

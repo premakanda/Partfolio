@@ -27,5 +27,21 @@
 
 .headerLink {
     color: #000;
+    font-weight: 700;
+    font-size: 20px;
     padding: 10px 0;
+    text-decoration: none;
+}
+
+@media (max-width: 660px) {
+    .headerList li {
+        margin-right: 20px;
+    }
+    .headerLink {
+        color: #000;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px 0;
+        text-decoration: none;
+    }
 }

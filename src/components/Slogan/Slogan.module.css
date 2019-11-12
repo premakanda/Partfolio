@@ -3,11 +3,16 @@
     min-height: 300px;
 }
 
-.sloganWrapper {
-    max-width: 1170px;
-    padding: 0 15px;
-    border: 1px solid #000;
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
 
 .sloganTitle {
