@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6445e057-035e-450e-ba92-8ed0c1243e11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectsItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectsItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillsItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillsItem.module.css" afterDir="false" />
@@ -62,7 +62,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573539332824</updated>
-      <workItem from="1573539334622" duration="4646000" />
+      <workItem from="1573539334622" duration="5845000" />
+      <workItem from="1573569353744" duration="1056000" />
+      <workItem from="1576345124825" duration="628000" />
+      <workItem from="1576745998136" duration="16093000" />
     </task>
     <servers />
   </component>
@@ -74,7 +77,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,6 +1,6 @@
 .contacts {
-    background-color: #FFE2E2;
-    height: 100vh;
+    background-color: #1F1F20;
+    padding: 100px 0;
 }
 
 .container {
@@ -16,23 +16,59 @@
 }
 
 .contactsTitle {
+    margin: 0;
+    margin-bottom: 70px;
+    position: relative;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 30px;
 }
 
+.contactsTitle::after {
+    content: "";
+    position: absolute;
+    left: 47%;
+    top: 50px;
+    background: #e9548d;
+    width: 55px;
+    height: 1px;
+}
+
+
 .contactsBtn {
+    background-color: transparent;
     display: block;
     margin: 0 auto;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 3.5px;
+    padding: 5px 0;
+    background-image: linear-gradient(to top, #e9548d 0,#e9548d 38%, transparent 38%);
+    border: none;
+    cursor: pointer;
+}
+
+.contactsBtn:hover {
+    background-image: linear-gradient(to top,#e9548d 0%,#e9548d 100%);
+    transition: all .2s ease-in-out;
 }
 
 input {
     margin-bottom: 20px;
-    background-color: #666666;
+    background-color: #333333;
+    border: 1px solid #e9548d;
+    border-radius: 5px;
 }
 
 textarea {
     margin-bottom: 20px;
-    background-color: #666666;
+    background-color: #333333;
+    border: 1px solid #e9548d;
+    border-radius: 5px;
 }
 
 form {

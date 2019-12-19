@@ -12,6 +12,7 @@ const Skills = () => {
                         <SkillsItem/>
                         <SkillsItem/>
                         <SkillsItem/>
+                        <SkillsItem/>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Slogan = () => {
       <div className={s.slogan}>
           <div className={s.container}>
             <h2 className={s.sloganTitle}>Рассматриваю варианты удаленной работы</h2>
-            <button className={s.sloganBtn} type="button">Нанять меня</button>
+            <button className={s.sloganBtn} type="button">Связаться со мной</button>
           </div>
       </div>
   );

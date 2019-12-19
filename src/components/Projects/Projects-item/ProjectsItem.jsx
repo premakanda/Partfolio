@@ -1,17 +1,21 @@
 import React from 'react';
 import s from './ProjectsItem.module.css';
+import site from '../../../image/site.jpg';
 
 const ProjectsItem = () => {
   return (
       <div className={s.projectsItem}>
+          <img className={s.projectsImg} src={site} alt="Фото"/>
           <div className={s.projectsFoto}>
-              <img className={s.projectsImg} src="https://trinixy.ru/pics5/20180508/uncommon_01.jpg" alt="Фото"/>
+              <h3 className={s.projectsTitle}>Название проекта</h3>
+              <p className={s.projectsTitle}>Краткое описание</p>
+          </div>
+          <div className={s.projectsBtnBlock}>
               <button className={s.projectsBtn} type="button">Смотреть</button>
           </div>
-          <h3 className={s.projectsTitle}>Название проекта</h3>
-          <p className={s.projectsTitle}>Краткое описание</p>
       </div>
   );
 }
 
 export default ProjectsItem;
+

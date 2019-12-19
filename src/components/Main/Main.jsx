@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Main.module.css';
+import foto from '../../image/foto.jpg';
 
 const Main = () => {
   return (
@@ -7,11 +8,14 @@ const Main = () => {
           <div className={s.container}>
               <div className={s.mainWrapper}>
                   <h1 className={s.mainTitle}>
-                      <span>Привет</span>
-                      <span>Меня зовут Петр</span>
-                      <span>Я front-end разработчик</span>
+                      Привет<br/>
+                      Меня зовут <span>Петр Янушкевич</span><br/>
+                      Я front-end разработчик
                   </h1>
-                  <img className={s.mainImg} src="https://trinixy.ru/pics5/20180508/uncommon_01.jpg" alt="Фото"/>
+                  <div className={s.mainImgWrapper}>
+                      <img className={s.mainImg} src={foto} alt="Фото"/>
+                      <span></span>
+                  </div>
               </div>
           </div>
       </div>
