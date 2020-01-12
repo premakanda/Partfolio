@@ -1,18 +1,19 @@
 import React from 'react';
+import './../../index.css';
 import s from './Main.module.css';
 import foto from '../../image/foto.jpg';
 
 const Main = () => {
   return (
       <div className={s.main}>
-          <div className={s.container}>
-              <div className={s.mainWrapper}>
+          <div className="container">
+              <div className={s.wrapper}>
                   <h1 className={s.mainTitle}>
                       Привет<br/>
-                      Меня зовут <span>Петр Янушкевич</span><br/>
-                      Я front-end разработчик
+                      Меня зовут <a href="#" className={"button" + ' ' + s.buttonName}>Петр Янушкевич</a> <br/>
+                      <span>Я front-end разработчик</span>
                   </h1>
-                  <div className={s.mainImgWrapper}>
+                  <div className={s.imgWrapper}>
                       <img className={s.mainImg} src={foto} alt="Фото"/>
                       <span></span>
                   </div>

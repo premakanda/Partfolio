@@ -31,43 +31,24 @@
     position: absolute;
     left: 47%;
     top: 50px;
-    background: #e9548d;
+    background: #1D6CFF;
     width: 55px;
     height: 1px;
 }
 
-
-.contactsBtn {
-    background-color: transparent;
-    display: block;
-    margin: 0 auto;
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #ffffff;
-    letter-spacing: 3.5px;
-    padding: 5px 0;
-    background-image: linear-gradient(to top, #e9548d 0,#e9548d 38%, transparent 38%);
-    border: none;
-    cursor: pointer;
-}
-
-.contactsBtn:hover {
-    background-image: linear-gradient(to top,#e9548d 0%,#e9548d 100%);
-    transition: all .2s ease-in-out;
-}
-
 input {
+    padding: 5px;
     margin-bottom: 20px;
     background-color: #333333;
-    border: 1px solid #e9548d;
+    border: 1px solid #1D6CFF;
     border-radius: 5px;
 }
 
 textarea {
+    padding: 5px;
     margin-bottom: 20px;
     background-color: #333333;
-    border: 1px solid #e9548d;
+    border: 1px solid #1D6CFF;
     border-radius: 5px;
 }
 
@@ -79,8 +60,8 @@ form {
     justify-content: center;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 759px) {
     form {
-        width: 100%;
+        width: 85%;
     }
 }

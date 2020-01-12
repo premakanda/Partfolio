@@ -1,5 +1,5 @@
 .main {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #1F1F20;
     position: relative;
     z-index: -1;
@@ -7,70 +7,62 @@
 }
 
 .mainTitle {
-    width: 57%;
+    margin: 0;
+    width: 640px;
     font-size: 20px;
-    line-height: 40px;
-    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 100px;
 }
-
+.button::after {
+    bottom: 6px;
+    height: 12px;
+    width: 100%;
+}
 .mainTitle span {
-    position: relative;
+    font-size: 26px;
+    line-height: 40px;
+}
+.buttonName {
+    padding: 10px;
     font-size: 50px;
     line-height: 52px;
     font-weight: 700;
     letter-spacing: 5px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 15px;
+    width: auto;
 }
-.mainTitle span:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 20px;
-    width: 100%;
-    z-index: -1;
-    background: #ea548d;
-    box-sizing: border-box;
 
-}
-.mainWrapper {
-    padding-top: 150px;
+.wrapper {
+    padding: 20% 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .mainImg {
-width: 300px;
+width: 340px;
 max-height: 430px;
     transform: translateZ(50px);
 }
-.mainImgWrapper {
+.imgWrapper {
     position: relative;
 }
-.mainImgWrapper span {
+
+.imgWrapper span {
     position: absolute;
-    top: 0px;
+    top: 0;
     bottom: 0;
     z-index: -9;
     height: 96%;
     width: 88%;
-    border: 5px solid #e9548d;
+    border: 5px solid #1D6CFF;
     transform: scale(1.13) translate(10%, 0px);
     left: 0;
     right: 0;
-}
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
 }
 
 @media (max-width: 660px) {
@@ -80,6 +72,7 @@ max-height: 430px;
 
     .mainImg {
         width: 100%;
+        max-width: 330px;
         height: auto;
     }
 }

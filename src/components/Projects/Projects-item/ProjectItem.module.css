@@ -1,0 +1,47 @@
+.projectItem {
+    position: relative;
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+}
+.projectDsc {
+    position: relative;
+}
+.projectImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.projectTitle {
+    font-weight: 700;
+}
+
+.projectBtn {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255,255,255,.7);
+    padding: 170px 80px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.projectItem:hover .projectBtn {
+    display: block;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+
+@media (max-width: 759px) {
+    .projectItem {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .projectItem {
+        width: 100%;
+    }
+}

@@ -3,40 +3,7 @@
     padding: 100px 0;
 }
 
-.projectsTitle {
-    margin: 0;
-    margin-bottom: 70px;
-    position: relative;
-    font-size: 30px;
-    line-height: 32px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.projectsTitle::after {
-    content: "";
-    position: absolute;
-    left: 47%;
-    top: 50px;
-    background: #e9548d;
-    width: 55px;
-    height: 1px;
-}
-
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-
-.projectsCards {
+.projectsBlock {
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -1,0 +1,46 @@
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillImg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.skillTitle {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+@media (min-width: 360px) {
+    .skillItem {
+        width: 40%;
+    }
+}
+
+@media (max-width: 760px) {
+    .skillsItem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 360px) {
+    .skillItem {
+        width: 100%;
+    }
+}
+@media (min-width: 760px) {
+    .skillItem {
+        width: 43%;
+    }
+}
+@media (min-width: 960px) {
+    .skillItem {
+        width: 20%;
+    }
+}

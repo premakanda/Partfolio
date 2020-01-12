@@ -1,19 +1,18 @@
 import React from 'react';
+import './../../index.css';
 import s from './Skills.module.css';
-import SkillsItem from './Skills-item/SkillsItem.jsx';
+import Title from './../Title';
+import SkillItem from "./Skills-item/SkillItem";
 
-const Skills = () => {
+const Skills = (props) => {
+
+    let skillElement = props.element.map( t => <SkillItem subtittle={t.subtittle} text={t.text} img={t.img}/>);
     return (
         <div className={s.skills}>
-            <div className={s.container}>
-                <div className={s.skillsWrapper}>
-                    <h2 className={s.skillsTitle}>Мои Скилы</h2>
-                    <div className={s.skillsCards}>
-                        <SkillsItem/>
-                        <SkillsItem/>
-                        <SkillsItem/>
-                        <SkillsItem/>
-                    </div>
+            <div className="container">
+                <Title title={'Мои Скилы'}/>
+                <div className={s.skillsBlock}>
+                    {skillElement}
                 </div>
             </div>
         </div>

@@ -1,16 +1,21 @@
 import React from 'react';
+import './../../index.css';
 import s from './Projects.module.css';
- import ProjectsItem  from './Projects-item/ProjectsItem.jsx';
+import Title from './../Title';
+import ProjectItem  from './Projects-item/ProjectItem.jsx';
+import site from '../../image/site.jpg';
+
 
 const Projects = () => {
+
   return (
       <div className={s.projects}>
-          <div className={s.container}>
+          <div className="container">
               <div className={s.projectsWrapper}>
-                  <h2 className={s.projectsTitle}>Мои работы</h2>
-                  <div className={s.projectsCards}>
-                      <ProjectsItem/>
-                      <ProjectsItem/>
+                  <Title title={'Мои работы'}/>
+                  <div className={s.projectsBlock}>
+                      <ProjectItem subtitle={'TODOLIST'} text={'Описание проекта TODOLIST'} img={site}/>
+                      <ProjectItem subtitle={'Caunter'} text={'Описание проекта Caunter'} img={site}/>
                   </div>
               </div>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './../../index.css';
 import s from './Contacts.module.css';
 
 
@@ -8,10 +9,10 @@ const Contacts = () => {
           <div className={s.container}>
               <form action="#">
                 <h2 className={s.contactsTitle}>Контакты</h2>
-                <input type="text"/>
-                <input type="text"/>
-                <textarea name="text" rows="5"></textarea>
-                <button className={s.contactsBtn}>Отправить</button>
+                <input type="text" placeholder="Имя"/>
+                <input type="text" placeholder="E-mail"/>
+                <textarea name="text" rows="5" placeholder="Сообщение"></textarea>
+                <button className="button" >Отправить</button>
             </form>
           </div>
       </div>
