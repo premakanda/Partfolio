@@ -1,16 +1,19 @@
 .projectItem {
-    position: relative;
     width: 45%;
     flex-direction: column;
     justify-content: center;
 }
-.projectDsc {
+
+.projectItemImg {
     position: relative;
+    margin-bottom: 30px;
+    max-width: 450px;
+    height: 300px;
+    box-sizing: border-box;
 }
 .projectImg {
     width: 100%;
     height: auto;
-    margin-bottom: 30px;
 }
 
 .projectTitle {
@@ -22,26 +25,42 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 400px;
-    background-color: rgba(255,255,255,.7);
-    padding: 170px 80px;
-    -webkit-box-sizing: border-box;
+    padding-top: 70px;
+    width: 450px;
+    height: 300px;
+    background-color: rgba(160,160,160,0.7);
     box-sizing: border-box;
     z-index: 1;
+    transition: all .3s ease;
 }
-.projectItem:hover .projectBtn {
+.projectItemImg:hover .projectBtn {
     display: block;
-    transition-duration: 0.8s;
+    transition-duration: 0.4s;
     cursor: pointer;
+    transition: all .3s ease;
 }
 
-@media (max-width: 759px) {
+.projectButton {
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+@media (max-width: 1024px) {
     .projectItem {
         width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
         margin-bottom: 30px;
     }
-    .projectItem {
+
+    .projectItemImg {
         width: 100%;
+        height: auto;
     }
+
+    .projectBtn {
+        width: 100%;
+        height: 100%;
+    }
+
 }

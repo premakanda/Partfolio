@@ -9,8 +9,8 @@ const Main = () => {
           <div className="container">
               <div className={s.wrapper}>
                   <h1 className={s.mainTitle}>
-                      Привет<br/>
-                      Меня зовут <a href="#" className={"button" + ' ' + s.buttonName}>Петр Янушкевич</a> <br/>
+                      Привет, меня зовут<br/>
+                      <a href="#" className={"button" + ' ' + s.buttonName}>Петр Янушкевич</a> <br/>
                       <span>Я front-end разработчик</span>
                   </h1>
                   <div className={s.imgWrapper}>

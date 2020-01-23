@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6445e057-035e-450e-ba92-8ed0c1243e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Title.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillsItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slogan/Slogan.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slogan/Slogan.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slogan/Slogan.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../todolist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,7 +62,10 @@
       <workItem from="1576933729991" duration="18302000" />
       <workItem from="1577981282928" duration="22000" />
       <workItem from="1578677057555" duration="4536000" />
-      <workItem from="1578831248854" duration="7126000" />
+      <workItem from="1578831248854" duration="9492000" />
+      <workItem from="1579158387994" duration="672000" />
+      <workItem from="1579633375480" duration="5491000" />
+      <workItem from="1579709794837" duration="6644000" />
     </task>
     <servers />
   </component>

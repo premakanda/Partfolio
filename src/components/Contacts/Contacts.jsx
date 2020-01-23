@@ -8,7 +8,7 @@ const Contacts = () => {
       <div className={s.contacts}>
           <div className={s.container}>
               <form action="#">
-                <h2 className={s.contactsTitle}>Контакты</h2>
+                <h2 className="title">Контакты</h2>
                 <input type="text" placeholder="Имя"/>
                 <input type="text" placeholder="E-mail"/>
                 <textarea name="text" rows="5" placeholder="Сообщение"></textarea>

@@ -7,10 +7,10 @@ import Projects from './components/Projects/Projects.jsx';
 import Slogan from './components/Slogan/Slogan';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
-import html from './image/html5.png';
-import css from './image/css3.png';
-import js from './image/javascript.png';
-import react from './image/react.png';
+import html from './image/html-5.svg';
+import css from './image/css3.svg';
+import js from './image/js.svg';
+import react from './image/react-native.svg';
 
 class App extends React.Component {
     state = {
