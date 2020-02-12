@@ -3,6 +3,7 @@ import './../../index.css';
 import s from './Main.module.css';
 import foto from '../../image/foto.jpg';
 
+
 const Main = () => {
   return (
       <div className={s.main}>

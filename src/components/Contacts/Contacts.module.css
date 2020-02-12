@@ -1,6 +1,7 @@
 .contacts {
-    background-color: #1F1F20;
+    /*background-color: #1F1F20;*/
     padding: 100px 0;
+    position: relative;
 }
 
 .container {

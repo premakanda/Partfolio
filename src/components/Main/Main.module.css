@@ -1,8 +1,8 @@
 .main {
     min-height: 100vh;
-    background-color: #1F1F20;
+    /*background-color: #1F1F20;*/
     position: relative;
-    z-index: -1;
+
     box-sizing: border-box;
 }
 
@@ -34,6 +34,7 @@
     margin: 0;
     width: auto;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .wrapper {
@@ -52,6 +53,13 @@ max-height: 430px;
 }
 .imgWrapper {
     position: relative;
+    z-index: 1;
+    transition: all .3s ease;
+}
+.imgWrapper:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+cursor: pointer;
 }
 
 .imgWrapper span {
@@ -65,6 +73,7 @@ max-height: 430px;
     transform: scale(1.13) translate(10%, 0px);
     left: 0;
     right: 0;
+
 }
 
 @media (max-width: 760px) {
