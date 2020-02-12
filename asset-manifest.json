@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/Partfolio/static/css/main.3cddba53.chunk.css",
-    "main.js": "/Partfolio/static/js/main.48cd51a9.chunk.js",
-    "main.js.map": "/Partfolio/static/js/main.48cd51a9.chunk.js.map",
+    "main.css": "/Partfolio/static/css/main.d28e00e1.chunk.css",
+    "main.js": "/Partfolio/static/js/main.5c022b22.chunk.js",
+    "main.js.map": "/Partfolio/static/js/main.5c022b22.chunk.js.map",
     "runtime-main.js": "/Partfolio/static/js/runtime-main.526740ec.js",
     "runtime-main.js.map": "/Partfolio/static/js/runtime-main.526740ec.js.map",
-    "static/js/2.ffce6ed7.chunk.js": "/Partfolio/static/js/2.ffce6ed7.chunk.js",
-    "static/js/2.ffce6ed7.chunk.js.map": "/Partfolio/static/js/2.ffce6ed7.chunk.js.map",
+    "static/js/2.2fb0545d.chunk.js": "/Partfolio/static/js/2.2fb0545d.chunk.js",
+    "static/js/2.2fb0545d.chunk.js.map": "/Partfolio/static/js/2.2fb0545d.chunk.js.map",
     "index.html": "/Partfolio/index.html",
-    "precache-manifest.0c5c9c20436c63cd36a8e19ca12ce694.js": "/Partfolio/precache-manifest.0c5c9c20436c63cd36a8e19ca12ce694.js",
+    "precache-manifest.5276d00b95c3c0a30497d6516be9fab5.js": "/Partfolio/precache-manifest.5276d00b95c3c0a30497d6516be9fab5.js",
     "service-worker.js": "/Partfolio/service-worker.js",
-    "static/css/main.3cddba53.chunk.css.map": "/Partfolio/static/css/main.3cddba53.chunk.css.map",
+    "static/css/main.d28e00e1.chunk.css.map": "/Partfolio/static/css/main.d28e00e1.chunk.css.map",
     "static/media/css3.svg": "/Partfolio/static/media/css3.62d97e17.svg",
     "static/media/foto.jpg": "/Partfolio/static/media/foto.05b25339.jpg",
+    "static/media/git.svg": "/Partfolio/static/media/git.45c52365.svg",
     "static/media/github1.svg": "/Partfolio/static/media/github1.e2713702.svg",
+    "static/media/gulp.svg": "/Partfolio/static/media/gulp.3d1bac00.svg",
     "static/media/html-5.svg": "/Partfolio/static/media/html-5.81faebdb.svg",
     "static/media/js.svg": "/Partfolio/static/media/js.6e350c5b.svg",
     "static/media/react-native.svg": "/Partfolio/static/media/react-native.9a63b1ac.svg",
-    "static/media/site.jpg": "/Partfolio/static/media/site.1d090c0f.jpg",
-    "static/media/telegram1.svg": "/Partfolio/static/media/telegram1.424ffe58.svg"
+    "static/media/redux.svg": "/Partfolio/static/media/redux.df779f32.svg",
+    "static/media/telegram1.svg": "/Partfolio/static/media/telegram1.424ffe58.svg",
+    "static/media/typescript.svg": "/Partfolio/static/media/typescript.42daaa9d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.526740ec.js",
-    "static/js/2.ffce6ed7.chunk.js",
-    "static/css/main.3cddba53.chunk.css",
-    "static/js/main.48cd51a9.chunk.js"
+    "static/js/2.2fb0545d.chunk.js",
+    "static/css/main.d28e00e1.chunk.css",
+    "static/js/main.5c022b22.chunk.js"
   ]
 }

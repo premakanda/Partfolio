@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14c5516c1f8d1dd1c0a83c90dbdad078",
+    "revision": "8762f08759a562e1865741cb27f8154e",
     "url": "/Partfolio/index.html"
   },
   {
-    "revision": "7b51f1ddc4c0b2afe5dd",
-    "url": "/Partfolio/static/css/main.3cddba53.chunk.css"
+    "revision": "711a10f0d6cf4060643c",
+    "url": "/Partfolio/static/css/main.d28e00e1.chunk.css"
   },
   {
-    "revision": "05df99062f133d0b3e13",
-    "url": "/Partfolio/static/js/2.ffce6ed7.chunk.js"
+    "revision": "c6e4e2db4c286d11e72c",
+    "url": "/Partfolio/static/js/2.2fb0545d.chunk.js"
   },
   {
-    "revision": "7b51f1ddc4c0b2afe5dd",
-    "url": "/Partfolio/static/js/main.48cd51a9.chunk.js"
+    "revision": "711a10f0d6cf4060643c",
+    "url": "/Partfolio/static/js/main.5c022b22.chunk.js"
   },
   {
     "revision": "cfd1668ce7fb789af8c3",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Partfolio/static/media/foto.05b25339.jpg"
   },
   {
+    "revision": "45c5236566fd375151fb51f7be85d164",
+    "url": "/Partfolio/static/media/git.45c52365.svg"
+  },
+  {
     "revision": "e2713702fc6a0de2c2e200872f2fd1df",
     "url": "/Partfolio/static/media/github1.e2713702.svg"
+  },
+  {
+    "revision": "3d1bac00c445c375b4dea4282d030458",
+    "url": "/Partfolio/static/media/gulp.3d1bac00.svg"
   },
   {
     "revision": "81faebdb1b3e0022142fe79caced6e28",
@@ -44,11 +52,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Partfolio/static/media/react-native.9a63b1ac.svg"
   },
   {
-    "revision": "1d090c0f34b4566a8591358e68892c32",
-    "url": "/Partfolio/static/media/site.1d090c0f.jpg"
+    "revision": "df779f32b73c78e65008d892d6af3c80",
+    "url": "/Partfolio/static/media/redux.df779f32.svg"
   },
   {
     "revision": "424ffe58cb33363df45988dc1a9479c8",
     "url": "/Partfolio/static/media/telegram1.424ffe58.svg"
+  },
+  {
+    "revision": "42daaa9db5619dd640cc612c16216e43",
+    "url": "/Partfolio/static/media/typescript.42daaa9d.svg"
   }
 ]);
