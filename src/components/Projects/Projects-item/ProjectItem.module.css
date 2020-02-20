@@ -10,20 +10,18 @@
     max-width: 450px;
     height: 300px;
     box-sizing: border-box;
-}
-.projectImg {
-    width: 100%;
-    height: auto;
+    background-size: cover;
+
 }
 
-.projectTitle {
+.projectsTitle {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
 }
 
 .projectBtn {
-    display: none;
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,13 +31,13 @@
     background-color: rgba(160,160,160,0.7);
     box-sizing: border-box;
     z-index: 1;
-    transition: all .3s ease;
+    transition: 2s;
 }
 .projectItemImg:hover .projectBtn {
+    opacity: 1;
     display: block;
-    transition-duration: 0.4s;
     cursor: pointer;
-    transition: all .3s ease;
+
 }
 
 .projectButton {
@@ -57,7 +55,6 @@
 
     .projectItemImg {
         width: 100%;
-        height: auto;
     }
 
     .projectBtn {

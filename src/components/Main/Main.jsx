@@ -6,7 +6,7 @@ import foto from '../../image/foto.jpg';
 
 const Main = () => {
   return (
-      <div className={s.main}>
+      <div id="main" className={s.main}>
           <div className="container">
               <div className={s.wrapper}>
                   <h1 className={s.mainTitle}>

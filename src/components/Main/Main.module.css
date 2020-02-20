@@ -1,8 +1,5 @@
 .main {
     min-height: 100vh;
-    /*background-color: #1F1F20;*/
-    position: relative;
-
     box-sizing: border-box;
 }
 
@@ -13,6 +10,7 @@
     line-height: 20px;
     font-weight: 400;
     margin-bottom: 100px;
+    position: relative;
 }
 .button::after {
     bottom: 6px;

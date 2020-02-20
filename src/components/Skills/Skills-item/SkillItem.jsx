@@ -7,7 +7,6 @@ const SkillItem = (props) => {
         <div className={s.skillItem}>
             <img className={s.skillImg} src={props.img} alt="Фото"/>
             <h3 className={s.skillTitle}>{props.subtittle}</h3>
-            <p className={s.skillText}>{props.text}</p>
         </div>
     );
 }

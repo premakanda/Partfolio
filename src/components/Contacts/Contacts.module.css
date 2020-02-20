@@ -1,7 +1,5 @@
 .contacts {
-    /*background-color: #1F1F20;*/
     padding: 100px 0;
-    position: relative;
 }
 
 .container {
@@ -18,8 +16,8 @@
 
 
 input {
-    padding: 5px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
     background-color: #333333;
     border: 1px solid #626262;
     border-radius: 5px;
@@ -27,8 +25,8 @@ input {
 }
 
 textarea {
-    padding: 5px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
     background-color: #333333;
     border: 1px solid #626262;
     border-radius: 5px;
@@ -41,6 +39,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 @media (max-width: 759px) {

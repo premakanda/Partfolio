@@ -1,0 +1,23 @@
+.aducation {
+    padding: 7% 0;
+    /*min-height: 100vh;*/
+    background-color: #1F1F20;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.aducationBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+    .aducationBlock {
+        justify-content: space-around;
+    }
+
+}
+
