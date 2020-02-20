@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/Partfolio/static/css/main.d28e00e1.chunk.css",
-    "main.js": "/Partfolio/static/js/main.5c022b22.chunk.js",
-    "main.js.map": "/Partfolio/static/js/main.5c022b22.chunk.js.map",
+    "main.css": "/Partfolio/static/css/main.97aed137.chunk.css",
+    "main.js": "/Partfolio/static/js/main.94f38149.chunk.js",
+    "main.js.map": "/Partfolio/static/js/main.94f38149.chunk.js.map",
     "runtime-main.js": "/Partfolio/static/js/runtime-main.526740ec.js",
     "runtime-main.js.map": "/Partfolio/static/js/runtime-main.526740ec.js.map",
-    "static/js/2.2fb0545d.chunk.js": "/Partfolio/static/js/2.2fb0545d.chunk.js",
-    "static/js/2.2fb0545d.chunk.js.map": "/Partfolio/static/js/2.2fb0545d.chunk.js.map",
+    "static/js/2.21738b37.chunk.js": "/Partfolio/static/js/2.21738b37.chunk.js",
+    "static/js/2.21738b37.chunk.js.map": "/Partfolio/static/js/2.21738b37.chunk.js.map",
     "index.html": "/Partfolio/index.html",
-    "precache-manifest.5276d00b95c3c0a30497d6516be9fab5.js": "/Partfolio/precache-manifest.5276d00b95c3c0a30497d6516be9fab5.js",
+    "precache-manifest.71802714093e9778445db120721e19ee.js": "/Partfolio/precache-manifest.71802714093e9778445db120721e19ee.js",
     "service-worker.js": "/Partfolio/service-worker.js",
-    "static/css/main.d28e00e1.chunk.css.map": "/Partfolio/static/css/main.d28e00e1.chunk.css.map",
+    "static/css/main.97aed137.chunk.css.map": "/Partfolio/static/css/main.97aed137.chunk.css.map",
+    "static/media/HTML&CSS-1-ru.png": "/Partfolio/static/media/HTML&CSS-1-ru.9355ef5d.png",
+    "static/media/HTML&CSS-2-ru.png": "/Partfolio/static/media/HTML&CSS-2-ru.b09e6f52.png",
+    "static/media/JS-1-en.png": "/Partfolio/static/media/JS-1-en.94d1186a.png",
     "static/media/css3.svg": "/Partfolio/static/media/css3.62d97e17.svg",
     "static/media/foto.jpg": "/Partfolio/static/media/foto.05b25339.jpg",
     "static/media/git.svg": "/Partfolio/static/media/git.45c52365.svg",
@@ -18,15 +21,20 @@
     "static/media/gulp.svg": "/Partfolio/static/media/gulp.3d1bac00.svg",
     "static/media/html-5.svg": "/Partfolio/static/media/html-5.81faebdb.svg",
     "static/media/js.svg": "/Partfolio/static/media/js.6e350c5b.svg",
+    "static/media/pink.jpg": "/Partfolio/static/media/pink.d9049a07.jpg",
     "static/media/react-native.svg": "/Partfolio/static/media/react-native.9a63b1ac.svg",
     "static/media/redux.svg": "/Partfolio/static/media/redux.df779f32.svg",
+    "static/media/sn.png": "/Partfolio/static/media/sn.484d3790.png",
     "static/media/telegram1.svg": "/Partfolio/static/media/telegram1.424ffe58.svg",
-    "static/media/typescript.svg": "/Partfolio/static/media/typescript.42daaa9d.svg"
+    "static/media/totdolist.png": "/Partfolio/static/media/totdolist.f798ea7a.png",
+    "static/media/typescript.svg": "/Partfolio/static/media/typescript.42daaa9d.svg",
+    "static/media/Сертификат BP.png": "/Partfolio/static/media/Сертификат BP.383b41a5.png",
+    "static/media/Сертификат JS.png": "/Partfolio/static/media/Сертификат JS.4bf6fec8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.526740ec.js",
-    "static/js/2.2fb0545d.chunk.js",
-    "static/css/main.d28e00e1.chunk.css",
-    "static/js/main.5c022b22.chunk.js"
+    "static/js/2.21738b37.chunk.js",
+    "static/css/main.97aed137.chunk.css",
+    "static/js/main.94f38149.chunk.js"
   ]
 }
