@@ -5,42 +5,22 @@
 
 }
 
-.aducationImg {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-
 .aducationItem:hover {
-    filter: grayscale(.75);
+    transform: scale(1.5);
+    transition: 500ms;
     cursor: pointer;
     transition-duration: 1s;
 }
 
 @media (min-width: 360px) {
     .aducationItem {
-        width: 40%;
-    }
-}
-
-@media (max-width: 760px) {
-    .aducationsItem {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
-@media (min-width: 360px) {
-    .aducationItem {
-        width: 100%;
-    }
-}
-@media (min-width: 760px) {
-    .aducationItem {
+        margin: 0 auto;
         width: 43%;
+        margin-bottom: 30px;
     }
 }
-@media (min-width: 960px) {
+
+@media (min-width: 1024px) {
     .aducationItem {
         width: 19%;
     }

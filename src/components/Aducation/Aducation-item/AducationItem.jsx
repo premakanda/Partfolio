@@ -4,7 +4,7 @@ import s from './AducationItem.module.css';
 
 const AducationItem = (props) => {
     return (
-        <div className={s.aducationItem}>
+        <div id="#aducation" className={s.aducationItem}>
             <img className={s.aducationItemImg} src={props.img} alt="Фото"/>
         </div>
     );

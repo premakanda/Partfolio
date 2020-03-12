@@ -30,9 +30,15 @@ img {
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
     .container {
-        width: 730px;
+        width: 738px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 994px;
     }
 }
 
@@ -88,10 +94,11 @@ img {
     height: 2px;
 }
 
-@media (max-width: 759px) {
+@media (max-width: 767px) {
     .title {
         font-size: 24px;
         line-height: 32px;
+        margin-bottom: 60px;
     }
 }
 
@@ -105,13 +112,12 @@ img {
     transition: all .4s ease-in-out 0s;
     background: transparent;
     color: #fff;
-    margin: 15px auto;
     z-index: 0;
     text-align: center;
     border-radius: 0;
     border: none;
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     font-weight: 400;
 }

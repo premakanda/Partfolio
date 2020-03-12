@@ -10,6 +10,8 @@ const Projects = (props) => {
     let projectElement = props.element.map( (t, index) => <ProjectItem title={t.title}
                                                               text={t.text}
                                                               style={t.style}
+                                                                       view={t.view}
+                                                                       code={t.code}
                                                               key={index}/>);
 
   return (

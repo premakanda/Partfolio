@@ -1,13 +1,14 @@
 .projectItem {
-    width: 45%;
+    width: 47%;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .projectItemImg {
     position: relative;
-    margin-bottom: 30px;
-    max-width: 450px;
+    margin-bottom: 20px;
+    width: 100%;
     height: 300px;
     box-sizing: border-box;
     background-size: cover;
@@ -15,23 +16,36 @@
 }
 
 .projectsTitle {
+    margin: 0;
+    margin-bottom: 10px;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
 }
+
+.projectsText{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 40px
+}
+
 
 .projectBtn {
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 70px;
-    width: 450px;
-    height: 300px;
-    background-color: rgba(160,160,160,0.7);
+    padding-top: 30%;
+    padding-left: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(60,60,60,0.7);
     box-sizing: border-box;
     z-index: 1;
-    transition: 2s;
+    transition: 1s;
+
 }
 .projectItemImg:hover .projectBtn {
     opacity: 1;
@@ -41,25 +55,50 @@
 }
 
 .projectButton {
-    margin-bottom: 20px;
-    width: 150px;
+    margin-right: 7%;
+    width: 100px;
+    display: inline-block;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
     .projectItem {
         width: 100%;
-        max-width: 450px;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     .projectItemImg {
-        width: 100%;
+        height: 200px;
+    }
+    .projectsTitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .projectsText{
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .projectBtn {
-        width: 100%;
-        height: 100%;
+        padding-top: 15%;
+        padding-left: 10%;
+    }
+
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+
+    .projectItemImg {
+        height: 200px;
+    }
+    .projectBtn {
+        padding-top: 20%;
+        padding-left: 10%;
+    }
+    .projectButton {
+        margin-right: 5%;
+        width: 90px;
+        display: inline-block;
     }
 
 }

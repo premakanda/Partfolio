@@ -14,15 +14,11 @@
     scroll-behavior: smooth;
 }
 
-.navList li {
-    margin-right: 50px;
-}
-
-.navList li:last-child {
-    margin-right: 0;
-}
-
 .navLink {
+    margin-right: 50px;
+    position: relative;
+    transform: scaleY(0.9);
+    cursor: pointer;
     color: #1D6CFF;
     padding: 5px 0;
     font-weight: 400;
@@ -30,24 +26,49 @@
     border-bottom: 1px solid transparent;
     scroll-behavior: smooth;
 }
+
+.navLink:last-child {
+    margin-right: 0;
+}
+
+.navLink::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    width: 0px;
+    height: 1px;
+    background: #6c9dfa;
+    transition: width 0.5s ease 0s;
+}
+.active::before {
+    width: 100%;
+}
+.navLink:hover::before,
+.navLink:focus::before {
+    width: 100%;
+}
+
 .navLink:hover,
 .navLink:focus {
     color: #6c9dfa;
-    border-bottom: 1px solid #6c9dfa;
+    /*border-bottom: 1px solid #6c9dfa;*/
     transition-duration: 0.5s;
 }
 
-@media (max-width: 559px) {
-    .navList li {
-        margin-right: 20px;
-    }
+@media (max-width: 767px) {
     .navLink {
-        font-size: 14px;
-        line-height: 18px;
+        margin-right: 10px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .navList {
+        padding: 10px 0;
     }
 }
 
-@media (min-width: 660px) {
+@media (min-width: 768px) {
     .navLink {
         font-size: 16px;
         line-height: 18px;

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .skillImg {
@@ -18,36 +19,35 @@
 
 .skillTitle {
     margin: 0;
-    margin-bottom: 15px;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
 }
 
-@media (min-width: 360px) {
-    .skillItem {
-        width: 40%;
-    }
-}
+/*@media (min-width: 360px) {*/
+/*    .skillItem {*/
+/*        width: 40%;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 760px) {
-    .skillsItem {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
+/*@media (max-width: 760px) {*/
+/*    .skillsItem {*/
+/*        width: 100%;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*}*/
 
+/*@media (min-width: 360px) {*/
+/*    .skillItem {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 @media (min-width: 360px) {
-    .skillItem {
-        width: 100%;
-    }
-}
-@media (min-width: 760px) {
     .skillItem {
         width: 43%;
     }
 }
-@media (min-width: 960px) {
+@media (min-width: 768px) {
     .skillItem {
         width: 25%;
     }

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6445e057-035e-450e-ba92-8ed0c1243e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Aducation/Aducation-item/AducationItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aducation/Aducation-item/AducationItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aducation/Aducation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aducation/Aducation-item/AducationItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aducation/Aducation-item/AducationItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aducation/Aducation-item/AducationItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aducation/Aducation-item/AducationItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
@@ -16,9 +16,21 @@
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects-item/ProjectItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills-item/SkillItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/JS-1-en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/counter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/counter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/foto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/html5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/icons8-react-native (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/pink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/site.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/sn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/totdolist.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +46,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TS/typescript - todolist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,7 +86,11 @@
       <workItem from="1579633375480" duration="5491000" />
       <workItem from="1579709794837" duration="7387000" />
       <workItem from="1581358113191" duration="30310000" />
-      <workItem from="1581616869091" duration="11471000" />
+      <workItem from="1581616869091" duration="12674000" />
+      <workItem from="1582286038098" duration="2237000" />
+      <workItem from="1582386443244" duration="5621000" />
+      <workItem from="1582458503955" duration="2534000" />
+      <workItem from="1584002888978" duration="21010000" />
     </task>
     <servers />
   </component>

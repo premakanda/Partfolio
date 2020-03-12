@@ -1,7 +1,7 @@
 import React from 'react';
 import './../../index.css';
 import s from './Main.module.css';
-import foto from '../../image/foto.jpg';
+import foto from '../../image/myfoto.jpg';
 
 
 const Main = () => {

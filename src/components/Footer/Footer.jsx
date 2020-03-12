@@ -7,7 +7,7 @@ import git from '../../image/github1.svg';
 
 const Footer = () => {
   return (
-      <footer id="footer" className={s.footer}>
+      <footer id="contacts" className={s.footer}>
           <div className={s.container}>
                 <h2 className={s.footerTitle}>Петр Янушкевич</h2>
                 <div className={s.footerList}>

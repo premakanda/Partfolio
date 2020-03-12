@@ -19,14 +19,20 @@ import gulp from './image/gulp.svg';
 
 import html1 from './image/HTML&CSS-1-ru.png';
 import html2 from './image/HTML&CSS-2-ru.png';
-import js1 from './image/JS-1-en.png';
+import js1 from './image/js-ru.jpg';
 import wr from './image/Сертификат BP.png';
 import wrjs from './image/Сертификат JS.png';
 
-import todolistBgImg from './image/totdolist.png';
-import socialnebworkBgImg from './image/sn.png';
+import todolistBgImg from './image/todolist.png';
+import socialnebworkBgImg from './image/social.png';
 import counterkBgImg from './image/counter.png';
-import pinkBgImg from './image/pink.jpg';
+import pinkBgImg from './image/pink.png';
+import yogaBgImg from './image/yoga.png';
+import goodcarbBgImg from './image/goodcarb.png';
+import keksobukingBgImg from './image/keksobooking.png';
+import wimdowBgImg from './image/window.png';
+import deviceBgImg from './image/device.png';
+import codemagickBgImg from './image/code_magick.png';
 
 import Particles from 'react-particles-js';
 import AducationItem from "./components/Aducation/Aducation-item/AducationItem";
@@ -45,13 +51,6 @@ const particlesOpt = {
         color: {
             value: '#fff'
         },
-        // shape: {
-        //     type: 'circle',
-        //     stroke: {
-        //         width: 1,
-        //         color: 'coral'
-        //     }
-        // },
         opacity: {
             value: 0.5,
             random: true,
@@ -123,6 +122,21 @@ const counterImg = {
 const pinkImg = {
     backgroundImage: 'url(' + pinkBgImg + ')'
 };
+const yogaImg = {
+    backgroundImage: 'url(' + yogaBgImg + ')'
+};
+const goodcarbImg = {
+    backgroundImage: 'url(' + goodcarbBgImg + ')'
+};
+const keksobukingImg = {
+    backgroundImage: 'url(' + keksobukingBgImg + ')'
+};const wimdowImg = {
+    backgroundImage: 'url(' + wimdowBgImg + ')'
+};const deviceImg = {
+    backgroundImage: 'url(' + deviceBgImg + ')'
+};const codemagickImg = {
+    backgroundImage: 'url(' + codemagickBgImg + ')'
+};
 
 class App extends React.Component {
     state = {
@@ -137,11 +151,16 @@ class App extends React.Component {
             {subtittle: 'Gulp', img: gulp}
         ],
         project: [
-            {title: 'TODOLIST', text:'React, redux, react-redux, redux-thunk, typescript, axios, HOC', style: todolistImg},
-            {title: 'Socialnetwork', text:'React, redux, react-redux, redux-thunk, redux-form, hooks, axios, HOC', style: socialnebworkImg},
-            {title: 'Counter', text:'React, redux, react-redux', style: counterImg},
-            {title: 'Pink', text:' HTML, CSS, Less, JS, Flexbox, BEM, Gulp, Git', style: pinkImg},
-
+            {title: 'TODOLIST', text:'React, redux, react-redux, redux-thunk, typescript, axios, HOC', style: todolistImg, view: 'https://premakanda.github.io/todolist/', code: 'https://github.com/premakanda/todolist' },
+            {title: 'SocialNetwork', text:'React, redux, react-redux, redux-thunk, redux-form, hooks, axios, HOC', style: socialnebworkImg, view: 'https://premakanda.github.io/SocialNetwork/', code: 'https://github.com/premakanda/SocialNetwork'},
+            {title: 'Counter', text:'React, redux, react-redux', style: counterImg, view: 'https://premakanda.github.io/counter/', code: 'https://github.com/premakanda/counter'},
+            {title: 'Pink-device', text:' HTML, CSS, Less, JS, Flexbox, BEM, Gulp, Git, mobile first', style: pinkImg, view: 'https://premakanda.github.io/pink-device/', code: 'https://github.com/premakanda/pink-device'},
+            {title: 'Yoga-travel', text:' HTML, CSS, Bootstrap, JS, Webpack, Slick-slider, Animation', style: yogaImg, view: 'https://premakanda.github.io/yoga-travel.github.io/', code: 'https://github.com/premakanda/yoga-travel.github.io'},
+            {title: 'GoodCardboard', text:' HTML, CSS, Sass, Bootstrap, JS, Gulp, Slick-slider, Animation', style: goodcarbImg, view: 'https://premakanda.github.io/good-cardboard.github.io/', code: 'https://github.com/premakanda/good-cardboard.github.io'},
+            {title: 'Keksobooking', text:' HTML, CSS, JS, Eslint', style: keksobukingImg, view: 'https://premakanda.github.io/keksobooking.github.io/', code: 'https://github.com/premakanda/keksobooking.github.io'},
+            {title: 'Window', text:'HTML, CSS, Bootstrap JS, Webpack, Slick-slider, Animation', style: wimdowImg, view: 'https://premakanda.github.io/window.github.io/', code: 'https://github.com/premakanda/window.github.io'},
+            {title: 'Device', text:'HTML, CSS, JS, fix layout', style: deviceImg, view: 'https://premakanda.github.io/device.github.io/', code: 'https://github.com/premakanda/device.github.io'},
+            {title: 'Code-and-Magick', text:'HTML, CSS, JS', style: codemagickImg, view: 'https://premakanda.github.io/code-and-magick.github.io/', code: 'https://github.com/premakanda/code-and-magick.github.io'}
         ],
         certificate: [
             {img: html1},
@@ -162,7 +181,7 @@ class App extends React.Component {
                 <Aducation element={this.state.certificate}/>
                 <Projects element={this.state.project}/>
                 {/*<Slogan/>*/}
-                <Contacts/>
+                {/*<Contacts/>*/}
                 <Footer/>
             </div>
         );
