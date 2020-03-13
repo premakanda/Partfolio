@@ -151,14 +151,14 @@ class App extends React.Component {
             {subtittle: 'Gulp', img: gulp}
         ],
         project: [
-            {title: 'TODOLIST', text:'React, redux, react-redux, redux-thunk, typescript, axios, HOC', style: todolistImg, view: 'https://premakanda.github.io/todolist/', code: 'https://github.com/premakanda/todolist' },
             {title: 'SocialNetwork', text:'React, redux, react-redux, redux-thunk, redux-form, hooks, axios, HOC', style: socialnebworkImg, view: 'https://premakanda.github.io/SocialNetwork/', code: 'https://github.com/premakanda/SocialNetwork'},
-            {title: 'Counter', text:'React, redux, react-redux', style: counterImg, view: 'https://premakanda.github.io/counter/', code: 'https://github.com/premakanda/counter'},
+            {title: 'TODOLIST', text:'React, redux, react-redux, redux-thunk, typescript, axios, HOC', style: todolistImg, view: 'https://premakanda.github.io/todolist/', code: 'https://github.com/premakanda/todolist' },
             {title: 'Pink-device', text:' HTML, CSS, Less, JS, Flexbox, BEM, Gulp, Git, mobile first', style: pinkImg, view: 'https://premakanda.github.io/pink-device/', code: 'https://github.com/premakanda/pink-device'},
+            {title: 'Keksobooking', text:' HTML, CSS, JS, Eslint', style: keksobukingImg, view: 'https://premakanda.github.io/keksobooking.github.io/', code: 'https://github.com/premakanda/keksobooking.github.io'},
             {title: 'Yoga-travel', text:' HTML, CSS, Bootstrap, JS, Webpack, Slick-slider, Animation', style: yogaImg, view: 'https://premakanda.github.io/yoga-travel.github.io/', code: 'https://github.com/premakanda/yoga-travel.github.io'},
             {title: 'GoodCardboard', text:' HTML, CSS, Sass, Bootstrap, JS, Gulp, Slick-slider, Animation', style: goodcarbImg, view: 'https://premakanda.github.io/good-cardboard.github.io/', code: 'https://github.com/premakanda/good-cardboard.github.io'},
-            {title: 'Keksobooking', text:' HTML, CSS, JS, Eslint', style: keksobukingImg, view: 'https://premakanda.github.io/keksobooking.github.io/', code: 'https://github.com/premakanda/keksobooking.github.io'},
             {title: 'Window', text:'HTML, CSS, Bootstrap JS, Webpack, Slick-slider, Animation', style: wimdowImg, view: 'https://premakanda.github.io/window.github.io/', code: 'https://github.com/premakanda/window.github.io'},
+            {title: 'Counter', text:'React, redux, react-redux', style: counterImg, view: 'https://premakanda.github.io/counter/', code: 'https://github.com/premakanda/counter'},
             {title: 'Device', text:'HTML, CSS, JS, fix layout', style: deviceImg, view: 'https://premakanda.github.io/device.github.io/', code: 'https://github.com/premakanda/device.github.io'},
             {title: 'Code-and-Magick', text:'HTML, CSS, JS', style: codemagickImg, view: 'https://premakanda.github.io/code-and-magick.github.io/', code: 'https://github.com/premakanda/code-and-magick.github.io'}
         ],
